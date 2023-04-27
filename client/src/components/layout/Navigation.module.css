@@ -1,0 +1,17 @@
+.navigation{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navigation ul{
+    display: flex;
+}
+.navigation ul .nav_link:last-child{
+    margin-left: auto;
+}
+.nav_link{
+    text-decoration: none;
+    padding: 1rem;
+    margin: .5rem 1rem;
+    border: 2px solid lightblue;
+}
